@@ -1,0 +1,31 @@
+p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+h2{
+    font-size: 20px;
+    line-height: 1.2;
+}
+.contain{
+    margin: 0 auto;
+    max-width: 640px;
+}
+.news_item{
+    display: flex;
+}
+.news_item li{
+    display: flex;
+    margin-bottom: 24px;
+}
+.detail{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.footer{
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+}
+

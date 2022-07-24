@@ -1,0 +1,39 @@
+.contain{
+    max-width: 640px;
+    margin:0 auto;
+}
+.contain__item{
+    margin-bottom: 24px;
+}
+.item_text{
+    margin-left: 20px;
+}
+.contain__item li{
+    display: flex;
+    margin-bottom: 24px;
+}
+.contain__item h2{
+    font-size: 20px;
+    line-height: 1.2;
+}
+.contain__item p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.header{
+    display: flex;
+}
+.contain__item img{
+    margin-bottom: 24px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 640px;
+    height: 120px;
+}
+.footer p{
+    font-size: 16px;
+    line-height: 1.5;
+}

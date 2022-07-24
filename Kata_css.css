@@ -1,0 +1,44 @@
+.contain{
+    margin: 0 auto;
+    max-width: 640px;
+}
+.main{
+    display: flex;
+}
+.AD_item{
+    margin-bottom: 24px;
+}
+img{
+    display: block;
+}
+.new_item{
+    display: flex;
+    margin-bottom: 24px;
+}
+.newsContain{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.newsContain h2{
+    font-size:20px; 
+    line-height:1.2;
+}
+.newsContain p{
+    font-size:16px; 
+    line-height:1.5;
+}
+
+.footer{
+    display: flex;
+    margin: 0 auto;
+    height: 120px;
+    
+    max-width: 640px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer p{
+    font-size: 16px;
+    line-height: 1.5;
+}

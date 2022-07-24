@@ -1,0 +1,25 @@
+/*
+class="test3 test" 不在意class前後順序
+後面CSS 蓋掉前面的CSS 所以會是test3
+權重
+HTML標籤選擇器: 1分
+類別選擇器: 10分 
+ID 選擇器 :100分 -->盡量不要用
+style 屬性: 1000分 ->用於動畫
+!important:10000分 
+*/
+/* 先看權重 在看先後 */
+.test{ /* 標籤+類別=11分 */
+    color: blue !important;
+}
+
+body .test{
+    color: red;
+}
+.test3{
+    color: pink ;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
